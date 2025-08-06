@@ -12,7 +12,10 @@ import goStashThumb from './assets/goStash/GoStash.png';
 import goStash1 from './assets/goStash/goStash1.png';
 import goStash2 from './assets/goStash/goStash2.png';
 import goStash3 from './assets/goStash/goStash3.png';
-
+import pms1 from './assets/pms1.png';
+import pms2 from './assets/pms2.png';
+import pms3 from './assets/pms3.png';
+import pmsThumb from './assets/pmsThumb.png';
 import careAssistThumb from './assets/careAssist/CareAssist.png';
 import careAssist1 from './assets/careAssist/nica1.png';
 import careAssist2 from './assets/careAssist/nica2.png';
@@ -209,8 +212,8 @@ whatILearned: [
       id: 3,
       title: "Project Management System",
       description: "The Project Management System is a web app that streamlines team progress tracking and reporting with custom dashboards and real-time updates, reducing dependecies on third-party tools.",
-      thumbnail: "/api/placeholder/400/250",
-      images: ["/api/placeholder/800/500", "/api/placeholder/800/500"],
+      thumbnail: pmsThumb,
+      images: [pms1, pms2, pms3, pmsThumb],
       expandedDescription: "The Project Management System is a full-stack web application developed using React and Django REST Framework, designed to simplify project tracking and team management. Team members can log daily work updates linked to specific projects, while managers gain visibility through real-time dashboards that display project-wise progress, timelines, and status. The system supports custom views for both employees and admins, helping streamline reporting, task follow-ups, and accountability. With its responsive UI and seamless backend integration, it improved team reporting efficiency by 60% and reduced the overhead of manual status tracking.",
       githubLink: "https://github.com/aayushman024",
       figmaLink: "https://www.figma.com/design/vjWil3kZIgbbUQDqpHB2qy/UI-UX-Samples?t=Uf18EVIOUoUwNbkB-0",
