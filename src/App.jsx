@@ -105,7 +105,7 @@ const Portfolio = () => {
       position: "SDE Intern",
       duration: "Jul 2024 - May 2025",
       location: "Gurugram, HR, IND",
-      logo: "/src/assets/nokia.png",
+      logo: "/assets/nokia.png",
       whatIDid: [
   "Built 5+ production-grade mobile/web apps using Kotlin, Flutter, and React, improving task efficiency for 500+ engineers.",
   "Led end-to-end development for Android and iOS apps, ensuring 100% responsiveness.",
@@ -125,7 +125,7 @@ const Portfolio = () => {
       position: "Summer Intern",
       duration: "May 2024 - Jul 2024",
       location: "Remote",
-      logo: "/src/assets/ct.jpeg",
+      logo: "/assets/ct.jpeg",
       whatIDid: [
   "Developed and optimized RESTful APIs and microservices using Django REST.",
   "Integrated APIs with React frontends, ensuring seamless UI interactions.",
@@ -145,7 +145,7 @@ whatILearned: [
       position: "Virtual Intern",
       duration: "May 2023 - Jul 2023",
       location: "Remote",
-      logo: "/src/assets/microsoft.jpg",
+      logo: "/assets/microsoft.jpg",
       whatIDid: [
   "Completed the Microsoft Future Ready Talent virtual internship with a focus on cloud and AI fundamentals.",
   "Explored core concepts of Microsoft Azure, Git, GitHub, and Artificial Intelligence through guided modules.",
