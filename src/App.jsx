@@ -1,5 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, FileText, Figma, ExternalLink, X, ChevronLeft, ChevronRight, Calendar, MapPin, Award, Menu, GraduationCap } from 'lucide-react';
+import logo from './assets/logo.jpg';
+import nokiaLogo from './assets/nokia.png';
+import celebalLogo from './assets/ct.jpeg';
+import microsoftLogo from './assets/microsoft.jpg';
+import mujarLogo from './assets/muj.png';
+import dpsLogo from './assets/dps.png';
+import davLogo from './assets/dav.png';
+
+import goStashThumb from './assets/goStash/GoStash.png';
+import goStash1 from './assets/goStash/goStash1.png';
+import goStash2 from './assets/goStash/goStash2.png';
+import goStash3 from './assets/goStash/goStash3.png';
+
+import careAssistThumb from './assets/careAssist/CareAssist.png';
+import careAssist1 from './assets/careAssist/nica1.png';
+import careAssist2 from './assets/careAssist/nica2.png';
+import careAssist3 from './assets/careAssist/nica3.png';
+
+import hidThumb from './assets/hid/HID.png';
+import hid1 from './assets/hid/hid1.png';
+import hid2 from './assets/hid/hid2.png';
+
 
 const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -105,7 +127,7 @@ const Portfolio = () => {
       position: "SDE Intern",
       duration: "Jul 2024 - May 2025",
       location: "Gurugram, HR, IND",
-      logo: "/assets/nokia.png",
+      logo: nokiaLogo,
       whatIDid: [
   "Built 5+ production-grade mobile/web apps using Kotlin, Flutter, and React, improving task efficiency for 500+ engineers.",
   "Led end-to-end development for Android and iOS apps, ensuring 100% responsiveness.",
@@ -125,7 +147,7 @@ const Portfolio = () => {
       position: "Summer Intern",
       duration: "May 2024 - Jul 2024",
       location: "Remote",
-      logo: "/assets/ct.jpeg",
+      logo:  celebalLogo,
       whatIDid: [
   "Developed and optimized RESTful APIs and microservices using Django REST.",
   "Integrated APIs with React frontends, ensuring seamless UI interactions.",
@@ -145,7 +167,7 @@ whatILearned: [
       position: "Virtual Intern",
       duration: "May 2023 - Jul 2023",
       location: "Remote",
-      logo: "/assets/microsoft.jpg",
+      logo: microsoftLogo,
       whatIDid: [
   "Completed the Microsoft Future Ready Talent virtual internship with a focus on cloud and AI fundamentals.",
   "Explored core concepts of Microsoft Azure, Git, GitHub, and Artificial Intelligence through guided modules.",
@@ -165,8 +187,8 @@ whatILearned: [
       id: 1,
       title: "GoStash",
       description: "GoStash is a productivity app that helps users organize digital resources and explore curated collections shared by others.",
-      thumbnail: "src/assets/goStash/GoStash.png",
-      images: ["src/assets/goStash/goStash1.png", "src/assets/goStash/goStash2.png", "src/assets/goStash/goStash3.png"],
+      thumbnail: goStashThumb,
+      images: [goStash1, goStash2, goStash3],
       expandedDescription: "GoStash is a React Native based productivity app built with a Django REST backend, designed to streamline how users organize, access, and share digital resources like links, documents, and tools. Alongside personalized stash creation, it offers a unique feature: pre-made stashes curated by other users, allowing instant access to ready-to-use collections on popular topics. With intelligent search, tagging, and a clean, user-driven interface, GoStash enables up to 40% faster resource retrieval, making it a powerful tool for individuals and teams managing large volumes of content.",
       githubLink: "https://github.com/aayushman024/GoStash",
       figmaLink: "https://www.figma.com/design/KIWJ0yvtbA1dm4ip9XIZpE/GoStash?node-id=1002-6668&p=f&t=F8j6xbRlWSmP2AGA-0",
@@ -176,8 +198,8 @@ whatILearned: [
       id: 2,
       title: "CareAssist",
       description: "CareAssist is a multilingual field engineer app that simplifies equipment troubleshooting with guides, videos, alarms, and interactive quizzes.",
-      thumbnail: "/src/assets/careAssist/CareAssist.png",
-      images: ["/src/assets/careAssist/nica1.png", "/src/assets/careAssist/nica2.png", "/src/assets/careAssist/nica3.png"],
+      thumbnail: careAssistThumb,
+      images: [careAssist1, careAssist2, careAssist3],
       expandedDescription: "CareAssist is a cross-platform mobile application built using React Native, Flutter (for prototyping), Firebase, and Django REST, aimed at supporting field engineers working with telecom clients like Airtel, BSNL, and RIO. The app provides a centralized hub for troubleshooting guides, tutorial videos, and alarm resolution steps for Nokia equipment. It features multilingual support to ensure accessibility across diverse regions and includes an interactive quiz section to reinforce technical knowledge. By consolidating critical documentation and tools in one place, CareAssist reduces troubleshooting time by up to 25%, improving on-site efficiency and knowledge retention for engineers.",
       githubLink: "https://github.com/aayushman024",
       figmaLink: "https://www.figma.com/design/vjWil3kZIgbbUQDqpHB2qy/UI-UX-Samples?t=Uf18EVIOUoUwNbkB-0",
@@ -198,8 +220,8 @@ whatILearned: [
       id: 4,
       title: "Hot Issues Dashboard",
       description: "Hot Issues Dashboard is a mobile and web app for tracking critical issues in Nokia’s NI product lineup, with role-based UI and tailored content.",
-      thumbnail: "/src/assets/hid/HID.png",
-      images: ["/src/assets/hid/hid1.png", "/src/assets/hid/hid2.png", "/src/assets/hid/HID.png"],
+      thumbnail: hidThumb,
+      images: [hid1, hid2, hidThumb],
       expandedDescription: "Hot Issues Dashboard is a real-time mobile and web application built using Flutter, React and Django REST to monitor and manage major issues across Nokia’s Network Infrastructure (NI) products. It delivers live updates on high-priority problems, enabling teams to respond quickly and effectively. The platform features user-specific dashboards and role-based content, ensuring engineers, managers, and leadership each access insights relevant to their responsibilities. By centralizing issue tracking with real-time visibility and tailored views, the dashboard enhances coordination, accountability, and resolution speed across cross-functional teams.",
       githubLink: "https://github.com/aayushman024",
       figmaLink: "https://www.figma.com/design/vjWil3kZIgbbUQDqpHB2qy/UI-UX-Samples?t=Uf18EVIOUoUwNbkB-0",
@@ -228,7 +250,7 @@ whatILearned: [
       duration: "2021 - 2025",
       location: "Jaipur, Rajasthan",
       marks: "CGPA: 8.1/10.0",
-      logo: "/src/assets/muj.png",
+      logo: mujarLogo,
       description: "Specialized in software engineering, data structures, algorithms, and mobile app development."
     },
     {
@@ -238,7 +260,7 @@ whatILearned: [
       duration: "2019 - 2021",
       location: "Ranchi, Jharkhand",
       marks: "95.3%",
-      logo: "/src/assets/dps.png",
+      logo: dpsLogo,
       description: "Science stream with PCM (Physics, Chemistry, Mathematics) and Computer Science."
     },
     {
@@ -248,7 +270,7 @@ whatILearned: [
       duration: "2018 - 2019",
       location: "Ranchi, Jharkhand",
       marks: "93.6%",
-      logo: "/src/assets/dav.png", 
+      logo: "davLogo", 
       description: "Comprehensive secondary education with focus on Science and Mathematics."
     }
   ];
@@ -292,7 +314,7 @@ whatILearned: [
                   className="flex items-center hover:scale-105 transition-transform duration-300 group"
                 >
                   <img 
-                    src="/src/assets/logo.jpg" 
+                    src={logo}
                     alt="Aayushman Ranjan Logo" 
                     className="h-10 w-10 md:h-12 md:w-12 rounded-full object-cover border-2 border-white/20 group-hover:border-cyan-400/50 transition-all duration-300 shadow-lg"
                   />
