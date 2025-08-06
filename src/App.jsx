@@ -119,7 +119,7 @@ const Portfolio = () => {
       linkedin: "https://linkedin.com/in/aayushmanranjan",
       github: "https://github.com/aayushman024",
       figma: "https://www.figma.com/design/vjWil3kZIgbbUQDqpHB2qy/UI-UX-Samples?node-id=0-1&p=f&t=hn3xzfwmQhTpP0w8-0",
-      resume: "https://drive.google.com/file/d/1AO9tRE1CbK_L0SGUTaSZlW4mZuO0SUPi/view?usp=sharing"
+      resume: "https://drive.google.com/file/d/1tD8Kg2p5ydj9Kk7a2-gtEb1YwzRJAWfA/view?usp=sharing"
     }
   };
 
