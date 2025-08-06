@@ -7,7 +7,7 @@ import microsoftLogo from './assets/microsoft.jpg';
 import mujarLogo from './assets/muj.png';
 import dpsLogo from './assets/dps.png';
 import davLogo from './assets/dav.png';
-
+import me from './assets/me.png';
 import goStashThumb from './assets/goStash/GoStash.png';
 import goStash1 from './assets/goStash/goStash1.png';
 import goStash2 from './assets/goStash/goStash2.png';
@@ -537,7 +537,7 @@ whatILearned: [
                   {/* Replace this with your animated character */}
                   <div className="relative h-[100%]">
                     <img 
-                      src="/src/assets/me.png" 
+                      src={me}
                       alt="Aayushman Ranjan" 
                       className="w-full h-[100%] object-contain max-w-md"
                     />
